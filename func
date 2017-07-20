@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+#-*-coding-*-
+
+def first_python_func(x):
+	if x>1:
+		return 99
+	else:
+		return 12
+def do_nothing():
+	pass
+print(first_python_func(1))
+
