@@ -30,3 +30,14 @@ elif r<13:
     print("拗口的")
 else:
     print("dfa")
+
+print("判断练习")
+
+nl=input("输出小明的年龄：")
+nl = int(nl)
+if nl > 18:
+    print("成年人")
+elif nl < 18:
+    print("未成年人")
+
+

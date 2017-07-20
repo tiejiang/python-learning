@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+#-*-coding:utf-8-*-
+print("循环")
+sum=0
+for n in range(101):
+	sum=sum+n
+print('sum= ',sum)
+
+s=0
+sum = 0
+while s<5:
+    sum = sum + s
+    s = s+1
+print("sum=", sum)
+
+print("loop test")
+
+i=0
+s=["adfad","fadfa","adfafda","fadfadf"]
+while i<len(s):
+    i=i+1  
+    if i==1:
+        continue   
+ 
+    if i>2:
+        break   
+    else:
+        print("s%d= "%i,s[i])
+
+    
