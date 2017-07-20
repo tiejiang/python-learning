@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+#-*-coding:utf-8-*-
+s1=72
+s2=85
+r=s1/s2
+print("成绩上升百分比：%0.2f"%(r*100))
+
+testList=["dad","dfafd","adfaaf"]
+print("testList=",testList)
+print("testlist[0]=",testList[0])
+print("testList[1]=",testList[1])
+testList[1]="123456"
+print("new listList[1]= ",testList[1])
+
+testTuple=("dadf","fadfadf",123,["fasdf","fadfadf",78])
+print(testTuple)
+
+L = [
+            ['Apple', 'Google', 'Microsoft'],
+                ['Java', 'Python', 'Ruby', 'PHP'],
+                    ['Adam', 'Bart', 'Lisa'],
+                ]
+print("L=",L[1][1])
+
+print("条件判断语句执行")
+r=11
+if r >15:
+    print("ok")
+elif r<13:
+    print("拗口的")
+else:
+    print("dfa")
